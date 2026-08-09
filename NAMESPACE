@@ -2,5 +2,6 @@
 
 export(clean_missing)
 export(import_csv)
+export(import_xlsx)
 export(me_quality_report)
 export(quality_report)

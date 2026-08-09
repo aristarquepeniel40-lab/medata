@@ -16,10 +16,12 @@ Imports:
     mecore (>= 0.0.0.9000),
     S7 (>= 0.2.0)
 Suggests:
+    readxl,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Collate:
     '00_import.R'
+    '00b_import_xlsx.R'
     '01_quality.R'
     '02_clean.R'
     '03_describe.R'
