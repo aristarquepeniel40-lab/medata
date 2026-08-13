@@ -3,11 +3,11 @@ Title: Import, validation et nettoyage de donnees pour l'ecosysteme MEverse
 Version: 0.0.0.9000
 Authors@R: person("Aristarque Peniel", "Segue", email = "vous@example.com", role = c("aut", "cre"))
 Description: Importe des me_dataset (definis dans mecore) depuis des
-    fichiers CSV, valide leur schema avant utilisation, et fournit un
-    rapport de qualite (completude, typage) ainsi qu'un nettoyage minimal
-    des valeurs manquantes. Ne definit aucune nouvelle classe de structure
-    metier (voir ARCHITECTURE.md §1) hormis me_quality_report, propre a
-    ce package.
+    fichiers CSV ou Excel, valide leur schema avant utilisation, et
+    fournit un rapport de qualite (completude, typage) ainsi qu'un
+    nettoyage minimal des valeurs manquantes. Ne definit aucune nouvelle
+    classe de structure metier (voir ARCHITECTURE.md §1) hormis
+    me_quality_report, propre a ce package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -26,3 +26,5 @@ Collate:
     '02_clean.R'
     '03_describe.R'
     'zzz.R'
+Remotes:
+    aristarquepeniel40-lab/mecore
