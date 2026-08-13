@@ -1,5 +1,7 @@
 # medata
 
+[![R-CMD-check](https://github.com/aristarquepeniel40-lab/medata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aristarquepeniel40-lab/medata/actions/workflows/R-CMD-check.yaml)
+
 **Import, validation et nettoyage de données pour l'écosystème [MEverse](https://github.com/aristarquepeniel40-lab/mecore).**
 
 Importe des `mecore::me_dataset` depuis des fichiers CSV ou Excel, valide
