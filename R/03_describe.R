@@ -1,11 +1,11 @@
-# Meme piege que dans meindicator (voir ARCHITECTURE.md §5) : `describe`
+# Meme piege que dans meindicator (voir ARCHITECTURE.md §5) : `me_describe`
 # est un generique DEFINI DANS mecore. On ne peut pas compter sur
 # @importFrom (poule et oeuf avec devtools::document()), donc alias local
 # explicite via `mecore::`.
-describe <- mecore::describe
+me_describe <- mecore::me_describe
 
 #' @noRd
-S7::method(describe, me_quality_report) <- function(x, ...) {
+S7::method(me_describe, me_quality_report) <- function(x, ...) {
   pires <- x@summary[order(-x@summary$pct_missing), , drop = FALSE]
   pire <- pires[1, ]
   sprintf(

@@ -40,7 +40,7 @@ stopifnot(grepl("schema non respecte", res))
 qr <- quality_report(d)
 stopifnot(S7_inherits(qr, medata::me_quality_report))
 print(qr@summary)
-cat(describe(qr), "\n")
+cat(me_describe(qr), "\n")
 
 # 4. Nettoyage - strategie flag (ne modifie rien)
 res_flag <- clean_missing(d, strategy = "flag")

@@ -49,7 +49,7 @@ qui retourne un entier (`nrow`, `ncol`, `length`, `sum` sur des entiers...).
 - `clean_missing(dataset, strategy = "flag" | "drop_rows")` — `"flag"`
   ne modifie rien (juste le rapport) ; `"drop_rows"` retire les lignes
   incomplètes sur les colonnes ciblées.
-- `describe()` enregistré sur `me_quality_report` (générique cross-package
+- `me_describe()` enregistré sur `me_quality_report` (générique cross-package
   de `mecore`, même mécanisme `.onLoad` que `meindicator`).
 
 ## 5. Sortie réelle du walking skeleton (testée ici)
