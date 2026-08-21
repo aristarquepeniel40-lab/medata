@@ -1,6 +1,6 @@
 Package: medata
 Title: Import, validation et nettoyage de donnees pour l'ecosysteme MEverse
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: person("Aristarque Peniel", "Segue", email = "vous@example.com", role = c("aut", "cre"))
 Description: Importe des me_dataset (definis dans mecore) depuis des
     fichiers CSV ou Excel, valide leur schema avant utilisation, et
@@ -13,7 +13,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 Imports:
-    mecore (>= 0.0.0.9000),
+    mecore (>= 1.0.0),
     S7 (>= 0.2.0)
 Suggests:
     readxl,
