@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/aristarquepeniel40-lab/medata/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/aristarquepeniel40-lab/medata/blob/v1.0.0/DESCRIPTION)
 
 Segue A (2026). *medata: Import, validation et nettoyage de donnees pour
 l'ecosysteme MEverse*. R package version 1.0.0,
